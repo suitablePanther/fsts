@@ -41,7 +41,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 5,
-				moduleName: "Cosmologie & Géodynamique",
+				moduleName: "Cosmo & Géo",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -99,7 +99,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 5,
-				moduleName: "Cosmologie & Géo",
+				moduleName: "Cosmo & Géo",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
