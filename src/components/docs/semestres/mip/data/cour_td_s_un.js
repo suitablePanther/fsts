@@ -9,7 +9,7 @@ const COUR_TD_S_UN = [
 		docs: [
 			{
 				id: 1,
-				moduleName: "Thermo COUR",
+				moduleName: "Thermo ",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -41,7 +41,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 5,
-				moduleName: "algorithm",
+				moduleName: "Struncture",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -49,7 +49,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 6,
-				moduleName: "langue 1",
+				moduleName: "Tec 1",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -67,7 +67,7 @@ const COUR_TD_S_UN = [
 		docs: [
 			{
 				id: 1,
-				moduleName: "Thermo TD",
+				moduleName: "Thermo",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -99,7 +99,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 5,
-				moduleName: "algorithm",
+				moduleName: "Struncture",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -107,7 +107,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 6,
-				moduleName: "langue 1",
+				moduleName: "Tec 1",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum

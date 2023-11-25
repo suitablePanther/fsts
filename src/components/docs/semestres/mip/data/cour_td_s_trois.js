@@ -25,7 +25,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 3,
-				moduleName: "analyse 1",
+				moduleName: "analyse 3",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -33,7 +33,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 4,
-				moduleName: "algebre 1",
+				moduleName: "D_S C",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -49,7 +49,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 6,
-				moduleName: "langue 1",
+				moduleName: "tec 3",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -67,7 +67,7 @@ const COUR_TD_S_TROIS = [
 		docs: [
 			{
 				id: 1,
-				moduleName: "Thermo",
+				moduleName: "mec solid",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -83,7 +83,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 3,
-				moduleName: "analyse 1",
+				moduleName: "analyse 3",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -91,7 +91,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 4,
-				moduleName: "algebre 1",
+				moduleName: "D_S C",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -107,7 +107,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 6,
-				moduleName: "langue 1",
+				moduleName: "tec 3",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum

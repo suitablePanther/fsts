@@ -9,7 +9,7 @@ const COUR_TD_S_TROIS = [
 		docs: [
 			{
 				id: 1,
-				moduleName: "Thermo",
+				moduleName: "Biologie animale",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -17,7 +17,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 2,
-				moduleName: "mec & geo",
+				moduleName: "Géo Ext",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -25,7 +25,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 3,
-				moduleName: "analyse 1",
+				moduleName: "Statistique, Proba",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -33,7 +33,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 4,
-				moduleName: "algebre 1",
+				moduleName: "Biologie Végétale",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -41,7 +41,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 5,
-				moduleName: "algorithm",
+				moduleName: "Stratigraphie",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -49,7 +49,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 6,
-				moduleName: "langue 1",
+				moduleName: "Tec 3",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -67,7 +67,7 @@ const COUR_TD_S_TROIS = [
 		docs: [
 			{
 				id: 1,
-				moduleName: "Thermo",
+				moduleName: "Biologie animale",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -75,7 +75,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 2,
-				moduleName: "mec pt & geo",
+				moduleName: "Géo Ext",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -83,7 +83,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 3,
-				moduleName: "analyse 1",
+				moduleName: "Statistique, Proba",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -91,7 +91,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 4,
-				moduleName: "algebre 1",
+				moduleName: "Biologie Végétale",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -99,7 +99,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 5,
-				moduleName: "algorithm",
+				moduleName: "Stratigraphie",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -107,7 +107,7 @@ const COUR_TD_S_TROIS = [
 			},
 			{
 				id: 6,
-				moduleName: "langue 1",
+				moduleName: "Tec 3",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum

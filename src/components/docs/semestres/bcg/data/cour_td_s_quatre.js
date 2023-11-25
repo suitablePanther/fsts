@@ -9,7 +9,7 @@ const COUR_TD_S_QUATRE = [
 		docs: [
 			{
 				id: 1,
-				moduleName: "Thermo",
+				moduleName: "Biochimie",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -17,7 +17,7 @@ const COUR_TD_S_QUATRE = [
 			},
 			{
 				id: 2,
-				moduleName: "mec & geo",
+				moduleName: "Chimie Org 1",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -25,7 +25,7 @@ const COUR_TD_S_QUATRE = [
 			},
 			{
 				id: 3,
-				moduleName: "analyse 1",
+				moduleName: "Microbiologie",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -33,7 +33,7 @@ const COUR_TD_S_QUATRE = [
 			},
 			{
 				id: 4,
-				moduleName: "algebre 1",
+				moduleName: "Chimie Miné",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -41,7 +41,7 @@ const COUR_TD_S_QUATRE = [
 			},
 			{
 				id: 5,
-				moduleName: "algorithm",
+				moduleName: "Org, Min 2",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -49,7 +49,7 @@ const COUR_TD_S_QUATRE = [
 			},
 			{
 				id: 6,
-				moduleName: "langue 1",
+				moduleName: "Tectonique",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -67,7 +67,7 @@ const COUR_TD_S_QUATRE = [
 		docs: [
 			{
 				id: 1,
-				moduleName: "Thermo",
+				moduleName: "Biochimie",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -75,7 +75,7 @@ const COUR_TD_S_QUATRE = [
 			},
 			{
 				id: 2,
-				moduleName: "mec pt & geo",
+				moduleName: "chimie org 1",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -83,7 +83,7 @@ const COUR_TD_S_QUATRE = [
 			},
 			{
 				id: 3,
-				moduleName: "analyse 1",
+				moduleName: "Microbiologie",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -91,7 +91,7 @@ const COUR_TD_S_QUATRE = [
 			},
 			{
 				id: 4,
-				moduleName: "algebre 1",
+				moduleName: "Chimie Miné",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -99,7 +99,7 @@ const COUR_TD_S_QUATRE = [
 			},
 			{
 				id: 5,
-				moduleName: "algorithm",
+				moduleName: "Org/Min 2",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -107,7 +107,7 @@ const COUR_TD_S_QUATRE = [
 			},
 			{
 				id: 6,
-				moduleName: "langue 1",
+				moduleName: "Tectonique",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum

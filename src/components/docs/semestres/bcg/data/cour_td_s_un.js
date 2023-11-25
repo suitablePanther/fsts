@@ -1,7 +1,7 @@
 const COUR_TD_S_UN = [
 	{
 		id: 1,
-		title: "MIP S1 cour",
+		title: "MIP S1 cours",
 		description: `MIP COUR S1 Lorem ipsum dolor sit amet consectetur adipisicing 
     elit. Quod rerum corrupti deleniti optio, obcaecati fugit eius
     soluta qui veritatis. corrupti deleniti optio, obcaecati fugit
@@ -9,7 +9,7 @@ const COUR_TD_S_UN = [
 		docs: [
 			{
 				id: 1,
-				moduleName: "Thermo COUR",
+				moduleName: "Optique & Radio",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -17,7 +17,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 2,
-				moduleName: "mecanique",
+				moduleName: "Biologie ",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -25,7 +25,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 3,
-				moduleName: "analyse 1",
+				moduleName: "analyse",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -33,7 +33,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 4,
-				moduleName: "algebre 1",
+				moduleName: "algebre",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -41,7 +41,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 5,
-				moduleName: "algorithm",
+				moduleName: "Cosmologie & Géodynamique",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -49,7 +49,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 6,
-				moduleName: "langue 1",
+				moduleName: "Tec 1",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: ` Hello 
@@ -59,7 +59,7 @@ const COUR_TD_S_UN = [
 	},
 	{
 		id: 2,
-		title: "MIP S1 TD",
+		title: "MIP S1 TDs",
 		description: `MIP TD S1 Lorem ipsum dolor sit amet consectetur adipisicing 
     elit. Quod rerum corrupti deleniti optio, obcaecati fugit eius
     soluta qui veritatis. corrupti deleniti optio, obcaecati fugit
@@ -67,7 +67,7 @@ const COUR_TD_S_UN = [
 		docs: [
 			{
 				id: 1,
-				moduleName: "Thermo TD",
+				moduleName: "Optique & Radio",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -75,7 +75,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 2,
-				moduleName: "mec & geo",
+				moduleName: "Biologie",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -83,7 +83,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 3,
-				moduleName: "analyse 1",
+				moduleName: "analyse",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -91,7 +91,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 4,
-				moduleName: "algebre 1",
+				moduleName: "algebre",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
@@ -99,7 +99,7 @@ const COUR_TD_S_UN = [
 			},
 			{
 				id: 5,
-				moduleName: "algorithm",
+				moduleName: "Cosmologie & Géo",
 				imgURL: "/svgs/pdf.svg",
 				doc: "/imgs/blue.png",
 				description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum
