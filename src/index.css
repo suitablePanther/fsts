@@ -68,6 +68,3 @@ html {
 	transform: skewX(-30deg);
 }
 
-#docs #semestre .active {
-	@apply text-main
-}

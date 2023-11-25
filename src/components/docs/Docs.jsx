@@ -6,7 +6,7 @@ const Docs = () => {
 	const { pathname } = useLocation();
 
 	return (
-		<section id="docs" className="flex py-0">
+		<section id="docs" className="relative flex py-0">
 			<Aside />
 			<main className="basis-full bg-[#eeeeee] dark:bg-sky-950/90 py-14">
 				{pathname === "/docs" ? <MSOne /> : <Outlet />}

@@ -2,13 +2,12 @@ import { NavLink } from "react-router-dom";
 import { docsSemestres } from "../../branchesData";
 
 const Aside = () => {
+	// handleClick
 	const handleClick = (e) => {
 		const target = e.currentTarget;
 		const spans = target.nextSibling;
-		console.log(target.textContent);
-
+		console.log(spans.firstChild);
 		if (target.textContent.trim().toLowerCase() === "mip") {
-			console.log(true);
 			spans.classList.toggle("group-first:h-fit");
 			target.firstChild.classList.toggle("group-first:rotate-0");
 			return;
@@ -17,10 +16,10 @@ const Aside = () => {
 		target.firstChild.classList.toggle("rotate-180");
 		return;
 	};
-
+	///
 	return (
 		<aside
-			className="basis-1/3 justify-start pt-32 gap-2 hidden
+			className="sticky top-0 basis-1/3 h-screen justify-start pt-32 gap-2 hidden
 	 sm:flex sm:flex-col max-w-[200px] bg-sky-800"
 		>
 			{docsSemestres.map((branch) => {
@@ -33,10 +32,10 @@ const Aside = () => {
 							onClick={handleClick}
 						>
 							<span
-								className="absolute right-2 top-1/2 -translate-y-1/2 text-red-300
+								className="absolute right-2 top-1/2 -translate-y-1/2 
 						 content-[url('/svgs/up.svg')] dark:content-[url('/svgs/dup.svg')] group-first:rotate-0 w-5 rotate-180"
 							></span>
-							{name} 
+							{name}
 						</span>
 						<div
 							id="semestre"
@@ -49,8 +48,7 @@ const Aside = () => {
 									<NavLink
 										key={id}
 										to={path}
-										className="w-5/6 hover:text-blue font-semibold duration-100 ease-linear
-									capitalize m-auto rounded"
+										className="w-5/6 aria-[current='page']:text-sky-500 font-semibold capitalize m-auto rounded"
 									>
 										{name}
 									</NavLink>
