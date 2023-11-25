@@ -1,8 +1,8 @@
 const COUR_TD_S_UN = [
 	{
 		id: 1,
-		title: "MIP S1 cours",
-		description: `MIP COUR S1 Lorem ipsum dolor sit amet consectetur adipisicing 
+		title: "BCG S1 cours",
+		description: `BCG COUR S1 Lorem ipsum dolor sit amet consectetur adipisicing 
     elit. Quod rerum corrupti deleniti optio, obcaecati fugit eius
     soluta qui veritatis. corrupti deleniti optio, obcaecati fugit
     eius soluta qui veritatis.`,
@@ -59,8 +59,8 @@ const COUR_TD_S_UN = [
 	},
 	{
 		id: 2,
-		title: "MIP S1 TDs",
-		description: `MIP TD S1 Lorem ipsum dolor sit amet consectetur adipisicing 
+		title: "BCG S1 TDs",
+		description: `BCG TD S1 Lorem ipsum dolor sit amet consectetur adipisicing 
     elit. Quod rerum corrupti deleniti optio, obcaecati fugit eius
     soluta qui veritatis. corrupti deleniti optio, obcaecati fugit
     eius soluta qui veritatis.`,

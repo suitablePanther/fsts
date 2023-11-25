@@ -1,8 +1,8 @@
 const COUR_TD_S_TROIS = [
 	{
 		id: 1,
-		title: "MIP S3 cour",
-		description: ` MIP COUR S2 Lorem ipsum dolor sit amet consectetur adipisicing 
+		title: "BCG S3 cour",
+		description: ` BCG COUR S2 Lorem ipsum dolor sit amet consectetur adipisicing 
     elit. Quod rerum corrupti deleniti optio, obcaecati fugit eius
     soluta qui veritatis. corrupti deleniti optio, obcaecati fugit
     eius soluta qui veritatis.`,
@@ -59,8 +59,8 @@ const COUR_TD_S_TROIS = [
 	},
 	{
 		id: 2,
-		title: "MIP S3 TD",
-		description: `MIP TD S2 Lorem ipsum dolor sit amet consectetur adipisicing 
+		title: "BCG S3 TD",
+		description: `BCG TD S2 Lorem ipsum dolor sit amet consectetur adipisicing 
     elit. Quod rerum corrupti deleniti optio, obcaecati fugit eius
     soluta qui veritatis. corrupti deleniti optio, obcaecati fugit
     eius soluta qui veritatis.`,

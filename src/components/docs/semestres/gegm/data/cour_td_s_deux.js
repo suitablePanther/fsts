@@ -1,8 +1,8 @@
 const COUR_TD_S_DEUX = [
 	{
 		id: 1,
-		title: "MIP S2 cour",
-		description: ` MIP COUR S2 Lorem ipsum dolor sit amet consectetur adipisicing 
+		title: "GE-GM S2 cour",
+		description: ` GE-GM COUR S2 Lorem ipsum dolor sit amet consectetur adipisicing 
     elit. Quod rerum corrupti deleniti optio, obcaecati fugit eius
     soluta qui veritatis. corrupti deleniti optio, obcaecati fugit
     eius soluta qui veritatis.`,
@@ -59,8 +59,8 @@ const COUR_TD_S_DEUX = [
 	},
 	{
 		id: 2,
-		title: "MIP S2 TD",
-		description: `MIP TD S2 Lorem ipsum dolor sit amet consectetur adipisicing 
+		title: "GE-GM S2 TD",
+		description: `GE-GM TD S2 Lorem ipsum dolor sit amet consectetur adipisicing 
     elit. Quod rerum corrupti deleniti optio, obcaecati fugit eius
     soluta qui veritatis. corrupti deleniti optio, obcaecati fugit
     eius soluta qui veritatis.`,

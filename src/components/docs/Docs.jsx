@@ -1,5 +1,5 @@
 /* eslint-disable no-constant-condition */
-import {  Outlet, useLocation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import MSOne from "./semestres/mip/components/SOne";
 import Aside from "./AsideTemplate";
 const Docs = () => {
@@ -20,11 +20,10 @@ const Docs = () => {
 		<section id="docs" className="flex py-0">
 			<Aside handleClick={handleClick} />
 			<main className="basis-full bg-[#eeeeee] dark:bg-sky-950/90 py-14">
-				{pathname === "/docs" || "/docs/" ? <MSOne /> : <Outlet />}
+				{pathname === "/docs" ? <MSOne /> : <Outlet />}
 			</main>
 		</section>
 	);
 };
 
 export default Docs;
-
