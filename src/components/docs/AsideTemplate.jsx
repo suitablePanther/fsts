@@ -19,27 +19,27 @@ const Aside = () => {
 	///
 	return (
 		<aside
-			className="sticky top-0 basis-1/3 h-screen justify-start pt-32 gap-2 hidden
-	 sm:flex sm:flex-col max-w-[200px] bg-sky-800"
+			className="fixed bottom-0 flex z-20 justify-evenly w-screen md:sticky md:top-0 md:basis-1/3 md:h-screen md:justify-start md:pt-32 md:gap-2 
+	  md:flex-col md:max-w-[200px] md:z-0 md:bg-sky-800"
 		>
 			{docsSemestres.map((branch) => {
 				const { id, name, semestres } = branch;
 				return (
-					<div key={id} className="group">
+					<div key={id} className="group flex flex-col-reverse md:flex-col">
 						<span
-							className="text-center group-gr relative 
-						 py-[1px] block rounded-md font-semibold"
+							className="text-center py-1 bg-sky-800 w-[33vw] md:w-full group-gr relative 
+						 md:py-[1px] block font-semibold"
 							onClick={handleClick}
 						>
 							<span
-								className="absolute right-2 top-1/2 -translate-y-1/2 
+								className=" absolute right-2  top-1/2 -translate-y-1/2 
 						 content-[url('/svgs/up.svg')] dark:content-[url('/svgs/dup.svg')] group-first:rotate-0 w-5 rotate-180"
 							></span>
 							{name}
 						</span>
 						<div
 							id="semestre"
-							className="group-first:h-fit flex h-0 flex-col overflow-hidden pt-0.5 gap-1 text-center text-sm"
+							className=" bg-sky-800 group-first:h-fit flex h-0 flex-col overflow-hidden pt-0.5 gap-1 text-center text-sm"
 						>
 							{/* semestres map  */}
 							{semestres.map((semestre) => {
