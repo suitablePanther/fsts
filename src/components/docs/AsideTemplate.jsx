@@ -20,14 +20,14 @@ const Aside = () => {
 	return (
 		<aside
 			className="fixed bottom-0 flex z-20 justify-evenly w-screen md:sticky md:top-0 md:basis-1/3 md:h-screen md:justify-start md:pt-32 md:gap-2 
-	  md:flex-col md:max-w-[200px] md:z-0 md:bg-sky-800"
+	  md:flex-col md:max-w-[200px] md:z-0 md:dark:bg-stone-800 md:bg-stone-100"
 		>
 			{docsSemestres.map((branch) => {
 				const { id, name, semestres } = branch;
 				return (
 					<div key={id} className="group flex flex-col-reverse md:flex-col">
 						<span
-							className="text-center py-1 bg-sky-800 w-[33vw] md:w-full group-gr relative 
+							className="text-center py-1 bg-stone-100 dark:bg-stone-800 w-[33vw] md:w-full group-gr relative 
 						 md:py-[1px] block font-semibold"
 							onClick={handleClick}
 						>
@@ -39,7 +39,7 @@ const Aside = () => {
 						</span>
 						<div
 							id="semestre"
-							className=" bg-sky-800 group-first:h-fit flex h-0 flex-col overflow-hidden pt-0.5 gap-1 text-center text-sm"
+							className="bg-stone-100 dark:bg-stone-800 group-first:h-fit flex h-0 flex-col overflow-hidden pt-0.5 gap-1 text-center text-sm"
 						>
 							{/* semestres map  */}
 							{semestres.map((semestre) => {
@@ -48,7 +48,7 @@ const Aside = () => {
 									<NavLink
 										key={id}
 										to={path}
-										className="w-5/6 aria-[current='page']:text-sky-500 font-semibold capitalize m-auto rounded"
+										className="w-5/6 aria-[current='page']:text-main font-semibold capitalize m-auto rounded"
 									>
 										{name}
 									</NavLink>

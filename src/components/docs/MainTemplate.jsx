@@ -20,7 +20,7 @@ const MainTemplate = ({ courTd }) => {
 								return (
 									<div
 										key={id}
-										className=" group min-w-[300px] dark:bg-sky-200/50 bg-white bg shadow-md shadow-[#eee3]
+										className=" group min-w-[300px] dark:bg-stone-200/50 bg-white bg shadow-md shadow-[#eee3]
 											sm:hover:-translate-y-1 duration-200 ease-linear"
 									>
 										<div className=" flex justify-center py-6 ">
@@ -29,15 +29,18 @@ const MainTemplate = ({ courTd }) => {
 												className=" h-full w-20 object-contain"
 											/>
 										</div>
-										<div className="relative bg-gray-200/90 dark:bg-sky-600">
-											<h4 className="relative py-2 px-2 w-fit text-white pr-4 z-10 tr">
+										<div className="relative bg-gray-200/90 dark:bg-stone-600">
+											<h4
+												className="relative py-2 px-2  w-fit text-white  z-10 tr
+											 before:absolute before:h-full before:w-[130%] before:top-0 before:left-0 before:bg-stone-500 before:dark:bg-stone-900 before:z-[-1]"
+											>
 												{moduleName}
-												<span className="absolute  top-0 h-full block w-10 left-[96%] dark:bg-sky-800 bg-gray-300 z-[-1]"></span>
+												<span className="absolute top-0 h-full block w-10 -right-10 dark:bg-stone-800 -skew-x-[30deg]  bg-gray-300 z-[-1]"></span>
 											</h4>
 											<a
 												href={doc}
 												download
-												className="group-hover:animate-bounce absolute right-2 top-1/2 -translate-y-1/2 dark:text-white text-blue-500"
+												className="group-hover:animate-bounce absolute right-2 top-1/2 -translate-y-1/2 dark:text-white text-stone-500"
 											>
 												<FontAwesomeIcon icon={faDownload} />
 											</a>

@@ -8,7 +8,7 @@ const Docs = () => {
 	return (
 		<section id="docs" className="relative flex py-0">
 			<Aside />
-			<main className="basis-full bg-[#eeeeee] dark:bg-sky-950/90 py-14">
+			<main className="basis-full   py-14">
 				{pathname === "/docs" ? <MSOne /> : <Outlet />}
 			</main>
 		</section>
