@@ -37,7 +37,7 @@
 }
 
 nav .active {
-	@apply text-alt;
+	@apply text-main;
 }
 
 ::-webkit-scrollbar {
