@@ -2,10 +2,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
-
 // eslint-disable-next-line react/prop-types
-const Template = ({ courTd }) => {
-	console.log(courTd);
+const MainTemplate = ({ courTd }) => {
 	return (
 		<>
 			{courTd.map((CT) => {
@@ -18,7 +16,7 @@ const Template = ({ courTd }) => {
 						</p>
 						<div className="grid grid-cols-auto gap-6 justify-between place-items-center px-5 p-9 ">
 							{docs.map((module) => {
-								const { id, moduleName, imgURL, doc, description } = module;
+								const { id, moduleName, imgURL, doc } = module;
 								return (
 									<div
 										key={id}
@@ -43,11 +41,9 @@ const Template = ({ courTd }) => {
 											>
 												<FontAwesomeIcon icon={faDownload} />
 											</a>
-											{/* <p className="text-justify px-1"> {description} </p> */}
 										</div>
 									</div>
 								);
-								// });
 							})}
 						</div>
 					</article>
@@ -57,4 +53,4 @@ const Template = ({ courTd }) => {
 	);
 };
 
-export default Template;
+export default MainTemplate;

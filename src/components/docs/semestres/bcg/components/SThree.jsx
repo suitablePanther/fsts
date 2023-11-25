@@ -1,4 +1,4 @@
-import Template from "../../../Template";
+import Template from "../../../MainTemplate";
 import { COUR_TD_S_TROIS } from "../../bcg/data/cour_td_s_trois";
 
 const SThree = () => {

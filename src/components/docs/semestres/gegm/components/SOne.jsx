@@ -1,9 +1,9 @@
-import Template from "../../../Template";
+import MainTemplate from "../../../MainTemplate";
 
 import { COUR_TD_S_UN } from "../data/cour_td_s_un";
 const SOne = () => {
 	return <div>
-		<Template courTd={COUR_TD_S_UN}/>
+		<MainTemplate courTd={COUR_TD_S_UN}/>
 	</div>;
 };
 

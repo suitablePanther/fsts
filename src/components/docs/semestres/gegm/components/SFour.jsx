@@ -1,10 +1,10 @@
-import Template from "../../../Template"
+import MainTemplate from "../../../MainTemplate"
 import { COUR_TD_S_QUATRE } from "../data/cour_td_s_quatre"
 
 const SFour = () => {
   return (
     <>
-     <Template courTd={COUR_TD_S_QUATRE} />
+     <MainTemplate courTd={COUR_TD_S_QUATRE} />
     </>
   )
 }

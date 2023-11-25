@@ -1,5 +1,5 @@
 
-import Template from "../../../Template";
+import Template from "../../../MainTemplate";
 import { COUR_TD_S_DEUX } from "../../bcg/data/cour_td_s_deux";
 const STwo = () => {
 	return (

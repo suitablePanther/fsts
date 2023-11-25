@@ -1,4 +1,4 @@
-import Template from "../../../Template";
+import MainTemplate from "../../../MainTemplate";
 import { COUR_TD_S_DEUX } from "../data/cour_td_s_deux";
 // import { COUR_TD_S_DEUX } from "./courTd";
 
@@ -6,7 +6,7 @@ import { COUR_TD_S_DEUX } from "../data/cour_td_s_deux";
 const STwo = () => {
 	return (
 		<>
-			<Template courTd={COUR_TD_S_DEUX}  />
+			<MainTemplate courTd={COUR_TD_S_DEUX}  />
 		</>
 	);
 };

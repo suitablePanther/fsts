@@ -1,10 +1,10 @@
-import Template from "../../../Template"
+import MainTemplate from "../../../MainTemplate"
 import { COUR_TD_S_TROIS } from "../data/cour_td_s_trois"
 
 const SThree = () => {
   return (
     <>
-    <Template courTd={COUR_TD_S_TROIS}/>
+    <MainTemplate courTd={COUR_TD_S_TROIS}/>
     </>
   )
 }

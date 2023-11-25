@@ -1,7 +1,7 @@
 import Clubs from "./Clubs";
 import Branches from "./Branches";
 import Landing from "./Landing";
-import Footer from "../Footer";
+import Footer from "../../helpers/Footer";
 
 const Home = () => {
 	return (
