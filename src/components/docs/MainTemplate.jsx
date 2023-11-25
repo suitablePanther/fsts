@@ -14,7 +14,7 @@ const MainTemplate = ({ courTd }) => {
 						<p className="pt-2 first-letter:pl-2 pl-5 text-justify max-w-[550px]">
 							{description}
 						</p>
-						<div className="grid grid-cols-auto gap-6 justify-between place-items-center px-5 p-9 ">
+						<div className="grid grid-cols-auto gap-6 place-items-center px-5 p-9 ">
 							{docs.map((module) => {
 								const { id, moduleName, imgURL, doc } = module;
 								return (

@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 
 const DarkMode = () => {
 	const [isDarkMode, setIsDarkMode] = useState(null);
-	const [currMode, setCurrMode] = useState("");
 	// get the systeme theme & user theme
 	const systemeTheme = window.matchMedia(
 		"(prefers-color-scheme: dark)"
@@ -18,23 +17,20 @@ const DarkMode = () => {
 			setIsDarkMode(true);
 			localStorage.setItem("theme", "dark");
 			htmlElemenet.classList = userTheme;
-			setCurrMode(userTheme);
 			return;
 		}
 		return;
-	}, []);
+	}, [htmlElemenet, systemeTheme, userTheme]);
 	///
 	// when the userThem Change reassign the class to html element
 	useEffect(() => {
 		htmlElemenet.classList = userTheme;
-		setCurrMode(userTheme);
-	}, [userTheme]);
+	}, [htmlElemenet, userTheme]);
 	///
 	// Handle Click
 	const handleMode = () => {
 		toggleMode();
 		htmlElemenet.classList = userTheme;
-		setCurrMode(userTheme);
 	};
 	///
 	// Toggle Function
@@ -52,10 +48,10 @@ const DarkMode = () => {
 		<div className=" right-4">
 			<button
 				type="button"
-				className=" font-bold text-xl text-[#ffd900] dark:text-gray-300 "
+				className=" font-bold text-xl text-main  "
 				onClick={handleMode}
 			>
-				{isDarkMode ? <FontAwesomeIcon icon={faMoon} /> : <FontAwesomeIcon icon={faSun}/>}
+				{isDarkMode ?  <FontAwesomeIcon icon={faSun}/>: <FontAwesomeIcon icon={faMoon} />}
 			</button>
 		</div>
 	);
