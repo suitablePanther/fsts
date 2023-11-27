@@ -21,6 +21,7 @@ import BSOne from "./components/docs/semestres/bcg/components/SOne";
 import BSTwo from "./components/docs/semestres/bcg/components/STwo";
 import BSThree from "./components/docs/semestres/bcg/components/SThree";
 import BSFour from "./components/docs/semestres/bcg/components/SFour";
+import Error from "./components/Error";
 /// BCG
 
 const Router = () => {
@@ -49,6 +50,7 @@ const Router = () => {
 					<Route path="/docs/bcg/sfour" Component={BSFour} />
 					{/* BCG */}
 				</Route>
+				<Route path="*" Component={Error}/>
 				<Route path="/about" Component={About} />
 				<Route path="/learning" Component={Learning} />
 			</Routes>

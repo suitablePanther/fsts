@@ -43,7 +43,7 @@ const NavBar = () => {
 					<span className="w-fit pl-1 text-main text-4xl uppercase">
 						fst
 						<span className="font-mono text-base lowercase text-white">
-							student{" "}
+							Talib
 						</span>
 					</span>
 					<div className="self-end absolute left-full flex flex-col">
