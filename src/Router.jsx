@@ -3,7 +3,7 @@ import Home from "./components/home/Home";
 import NavBar from "./components/NavBar";
 import Docs from "./components/docs/Docs";
 import About from "./components/About";
-import Learning from "./components/Learning";
+import Learning from "./components/learning/Learning";
 // MiP
 import MSOne from "./components/docs/semestres/mip/components/SOne";
 import MSTwo from "./components/docs/semestres/mip/components/STwo";
