@@ -31,7 +31,7 @@ const MainTemplate = ({ courTd }) => {
 										</div>
 										<div className="relative bg-gray-200/90 dark:bg-stone-600">
 											<h4
-												className="relative py-2 px-2  w-fit text-white  z-10 tr
+												className="relative py-2 px-2  w-fit text-white text-base sm:text-xl z-10 tr
 											 before:absolute before:h-full before:w-[130%] before:top-0 before:left-0 before:bg-stone-500 before:dark:bg-stone-900 before:z-[-1]"
 											>
 												{moduleName}
