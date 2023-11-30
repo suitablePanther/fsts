@@ -1,26 +1,26 @@
 import { NavLink } from "react-router-dom";
 import { parents } from "./data";
-import _ from 'lodash'
+import _ from "lodash";
 const Learning = () => {
 	const handleClick = (id) => {
-		const parent = _.find(parents, { id })
-		console.log(parent)
+		const parent = _.find(parents, { id });
+		console.log(parent);
 		return (parent.isShow = !parent.isShow);
 	};
 
 	return (
-		<section>
-			<div className="contain flex ">
-				<aside className="sticky top-1 grow max-w-[150px] bg-green-400 h-screen flex flex-col justify-center items-start">
+		<section className="p-0">
+			<div className="contain flex">
+				<aside className="sticky top-1 grow max-w-[150px] bg-green-400 h-screen flex flex-col pt-20 items-center">
 					{parents.map((parent) => {
-						let { id, name, isShow, children } = parent;
+						const { id, name, isShow, children } = parent;
 						return (
 							<div key={id}>
 								<NavLink className="block" onClick={() => handleClick(id)}>
-									{name}
+									{name} 
 								</NavLink>
 								{isShow && (
-									<div className="children duration-1000 ease-linear">
+									<div className="children">
 										{children.map((child) => {
 											const { id, name } = child;
 											return (

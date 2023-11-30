@@ -359,7 +359,7 @@ const docsSemestres = [
 	},
 	// BCG
 	{
-		id: 2,
+		id: 3,
 		name: "BCG",
 		semestres: [
 			{
