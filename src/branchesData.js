@@ -3,6 +3,7 @@ const docsSemestres = [
 	{
 		id: 1,
 		name: "MIP",
+		isShow: true,
 		semestres: [
 			{
 				id: 1,
@@ -182,6 +183,7 @@ const docsSemestres = [
 	{
 		id: 2,
 		name: "GE-GM",
+		isShow: false,
 		semestres: [
 			{
 				id: 1,
@@ -361,6 +363,7 @@ const docsSemestres = [
 	{
 		id: 3,
 		name: "BCG",
+		isShow: false,
 		semestres: [
 			{
 				id: 1,
@@ -537,7 +540,6 @@ const docsSemestres = [
 		],
 	},
 ];
-
 
 
 
