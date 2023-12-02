@@ -40,7 +40,7 @@ import BcgSDeux from "../components/cours/branches/BCG/semestres/s_deux/BcgSDeux
 import BcgSTrois from "../components/cours/branches/BCG/semestres/s_trois/BcgSTrois";
 import BcgSQuatre from "../components/cours/branches/BCG/semestres/s_quatre/BcgSQuatre";
 
-const Router = ({ children }) => {
+const Router = () => {
 	return (
 		<BrowserRouter>
 			<NavBar />
