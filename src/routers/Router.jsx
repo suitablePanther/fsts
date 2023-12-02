@@ -5,22 +5,22 @@ import Docs from "../components/docs/Docs";
 import About from "../components/About";
 import Cours from "../components/cours/Cours";
 // MiP
-import MSOne from "../components/docs/semestres/mip/components/SOne";
-import MSTwo from "../components/docs/semestres/mip/components/STwo";
-import MSThree from "../components/docs/semestres/mip/components/SThree";
-import MSFour from "../components/docs/semestres/mip/components/SFour";
+import MSUn from "../components/docs/semestres/mip/components/SUn";
+import MSDeux from "../components/docs/semestres/mip/components/SDeux";
+import MSTrois from "../components/docs/semestres/mip/components/STrois";
+import MSQuatre from "../components/docs/semestres/mip/components/SQuatre";
 /// MIP
 // GEGM
-import GSOne from "../components/docs/semestres/gegm/components/SOne";
-import GSTwo from "../components/docs/semestres/gegm/components/STwo";
-import GSThree from "../components/docs/semestres/gegm/components/SThree";
-import GSFour from "../components/docs/semestres/gegm/components/SFour";
+import GSUn from "../components/docs/semestres/gegm/components/SUn";
+import GSDeux from "../components/docs/semestres/gegm/components/SDeux";
+import GSTrois from "../components/docs/semestres/gegm/components/STrois";
+import GSQuatre from "../components/docs/semestres/gegm/components/SQuatre";
 /// GEGM
 // BCG
-import BSOne from "../components/docs/semestres/bcg/components/SOne";
-import BSTwo from "../components/docs/semestres/bcg/components/STwo";
-import BSThree from "../components/docs/semestres/bcg/components/SThree";
-import BSFour from "../components/docs/semestres/bcg/components/SFour";
+import BSUn from "../components/docs/semestres/bcg/components/SUn";
+import BSDeux from "../components/docs/semestres/bcg/components/SDeux";
+import BSTrois from "../components/docs/semestres/bcg/components/STrois";
+import BSQuatre from "../components/docs/semestres/bcg/components/SQuatre";
 import Error from "../components/Error";
 import MIPBranch from "../components/cours/branches/MIP/MIPBranch";
 import GEGMBranch from "../components/cours/branches/GEGM/GEGMBranch";
@@ -46,25 +46,24 @@ const Router = ({ children }) => {
 			<NavBar />
 			<Routes>
 				<Route index element={<Home />} />
-				<Route path="/cours" Component={Cours} />
 				<Route path="/docs" Component={Docs}>
 					{/* MIP  */}
-					<Route path="/docs/mip/sone" Component={MSOne} />
-					<Route path="/docs/mip/stwo" Component={MSTwo} />
-					<Route path="/docs/mip/sthree" Component={MSThree} />
-					<Route path="/docs/mip/sfour" Component={MSFour} />
+					<Route path="/docs/mip/sun" Component={MSUn} />
+					<Route path="/docs/mip/sdeux" Component={MSDeux} />
+					<Route path="/docs/mip/strois" Component={MSTrois} />
+					<Route path="/docs/mip/squatre" Component={MSQuatre} />
 					{/* MIP  */}
 					{/* GE-GM  */}
-					<Route path="/docs/gegm/sone" Component={GSOne} />
-					<Route path="/docs/gegm/stwo" Component={GSTwo} />
-					<Route path="/docs/gegm/sthree" Component={GSThree} />
-					<Route path="/docs/gegm/sfour" Component={GSFour} />
+					<Route path="/docs/gegm/sun" Component={GSUn} />
+					<Route path="/docs/gegm/sdeux" Component={GSDeux} />
+					<Route path="/docs/gegm/strois" Component={GSTrois} />
+					<Route path="/docs/gegm/squatre" Component={GSQuatre} />
 					{/* GE-GM  */}
 					{/* BCG */}
-					<Route path="/docs/bcg/sone" Component={BSOne} />
-					<Route path="/docs/bcg/stwo" Component={BSTwo} />
-					<Route path="/docs/bcg/sthree" Component={BSThree} />
-					<Route path="/docs/bcg/sfour" Component={BSFour} />
+					<Route path="/docs/bcg/sun" Component={BSUn} />
+					<Route path="/docs/bcg/sdeux" Component={BSDeux} />
+					<Route path="/docs/bcg/strois" Component={BSTrois} />
+					<Route path="/docs/bcg/squatre" Component={BSQuatre} />
 					{/* BCG */}
 				</Route>
 				<Route path="*" Component={Error} />

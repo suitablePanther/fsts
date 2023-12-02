@@ -1,8 +1,8 @@
 import Template from "../../../MainTemplate";
 import { COUR_TD_S_UN } from "../data/cour_td_s_un";
 
-const SOne = () => {
+const MSUn = () => {
 	return <Template courTd={COUR_TD_S_UN} />;
 };
 
-export default SOne;
+export default MSUn;

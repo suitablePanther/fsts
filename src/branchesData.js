@@ -8,7 +8,7 @@ const docsSemestres = [
 			{
 				id: 1,
 				name: "S1",
-				path: "/docs/mip/sone",
+				path: "/docs/mip/sun",
 				docs: [
 					{
 						id: 1,
@@ -51,7 +51,7 @@ const docsSemestres = [
 			{
 				id: 2,
 				name: "s2",
-				path: "/docs/mip/stwo",
+				path: "/docs/mip/sdeux",
 				docs: [
 					{
 						id: 1,
@@ -94,7 +94,7 @@ const docsSemestres = [
 			{
 				id: 3,
 				name: "s3",
-				path: "/docs/mip/sthree",
+				path: "/docs/mip/strois",
 				docs: [
 					{
 						id: 1,
@@ -137,7 +137,7 @@ const docsSemestres = [
 			{
 				id: 4,
 				name: "s4",
-				path: "/docs/mip/sfour",
+				path: "/docs/mip/squatre",
 				docs: [
 					{
 						id: 1,
@@ -188,7 +188,7 @@ const docsSemestres = [
 			{
 				id: 1,
 				name: "S1",
-				path: "/docs/gegm/sone",
+				path: "/docs/gegm/sun",
 				docs: [
 					{
 						id: 1,
@@ -231,7 +231,7 @@ const docsSemestres = [
 			{
 				id: 2,
 				name: "s2",
-				path: "/docs/gegm/stwo",
+				path: "/docs/gegm/sdeux",
 				docs: [
 					{
 						id: 1,
@@ -274,7 +274,7 @@ const docsSemestres = [
 			{
 				id: 3,
 				name: "s3",
-				path: "/docs/gegm/sthree",
+				path: "/docs/gegm/strois",
 				docs: [
 					{
 						id: 1,
@@ -317,7 +317,7 @@ const docsSemestres = [
 			{
 				id: 4,
 				name: "s4",
-				path: "/docs/gegm/sfour",
+				path: "/docs/gegm/squatre",
 				docs: [
 					{
 						id: 1,
@@ -368,7 +368,7 @@ const docsSemestres = [
 			{
 				id: 1,
 				name: "S1",
-				path: "/docs/bcg/sone",
+				path: "/docs/bcg/sun",
 				docs: [
 					{
 						id: 1,
@@ -411,7 +411,7 @@ const docsSemestres = [
 			{
 				id: 2,
 				name: "s2",
-				path: "/docs/bcg/stwo",
+				path: "/docs/bcg/sdeux",
 				docs: [
 					{
 						id: 1,
@@ -454,7 +454,7 @@ const docsSemestres = [
 			{
 				id: 3,
 				name: "s3",
-				path: "/docs/bcg/sthree",
+				path: "/docs/bcg/strois",
 				docs: [
 					{
 						id: 1,
@@ -497,7 +497,7 @@ const docsSemestres = [
 			{
 				id: 4,
 				name: "s4",
-				path: "/docs/bcg/sfour",
+				path: "/docs/bcg/squatre",
 				docs: [
 					{
 						id: 1,
@@ -540,7 +540,5 @@ const docsSemestres = [
 		],
 	},
 ];
-
-
 
 export { docsSemestres };

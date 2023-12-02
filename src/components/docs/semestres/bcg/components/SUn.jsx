@@ -1,6 +1,6 @@
 import Template from "../../../MainTemplate";
-import { COUR_TD_S_UN } from "../../bcg/data/cour_td_s_un";
-const SOne = () => {
+import { COUR_TD_S_UN } from "../data/cour_td_s_un";
+const SUn = () => {
 	return (
 		<>
 			<Template courTd={COUR_TD_S_UN} />
@@ -8,4 +8,4 @@ const SOne = () => {
 	);
 };
 
-export default SOne;
+export default SUn;
