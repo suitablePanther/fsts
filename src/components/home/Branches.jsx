@@ -1,4 +1,4 @@
-import { branchesData } from "../../data";
+import { branchesData } from "../../home_data";
 
 const Branches = () => {
 	return (

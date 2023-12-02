@@ -1,9 +1,9 @@
 import MainTemplate from "../../../../components/MainTemplate"
-import { sQuatreModulesData } from "./s_quatre_modules_data"
+import { MIP_S_QUATRE_MODULES_DATA } from "./s_quatre_modules_data"
 
 const MipSQuatre = () => {
   return (
-    <MainTemplate semestreData={sQuatreModulesData}/>
+    <MainTemplate semestreData={MIP_S_QUATRE_MODULES_DATA}/>
   )
 }
 

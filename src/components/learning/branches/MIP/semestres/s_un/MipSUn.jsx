@@ -1,7 +1,7 @@
 import MainTemplate from "../../../../components/MainTemplate";
-import { sUnModulesData } from "./s_un_modules_data";
+import { MIP_S_UN_MODULES_DATA } from "./s_un_modules_data";
 const MipSUn = () => {
-	return <MainTemplate semestreData={sUnModulesData} />;
+	return <MainTemplate semestreData={MIP_S_UN_MODULES_DATA} />;
 };
 
 export default MipSUn;

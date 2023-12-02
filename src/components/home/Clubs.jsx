@@ -1,4 +1,4 @@
-import { clubsData } from "../../data";
+import { clubsData } from "../../home_data";
 
 const Clubs = () => {
 	return (

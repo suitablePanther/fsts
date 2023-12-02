@@ -1,5 +1,7 @@
+import { Outlet } from "react-router-dom";
+
 const BCGBranch = () => {
-	return <div>BCGBranch</div>;
+	return <Outlet />;
 };
 
 export default BCGBranch;

@@ -1,12 +1,15 @@
-import { sUnModulesData } from "./branches/MIP/semestres/s_un/s_un_modules_data";
+import { MIP_S_UN_DATA } from "./branches/MIP/data/mip_s_un";
 import Aside from "./components/AsideTemplate";
 import MainTemplate from "./components/MainTemplate";
+
+import { COURS_DATA } from "./data";
+
 const Learning = () => {
 	return (
 		<section className="p-0">
 			<div className="contain flex">
-				<Aside />
-				<MainTemplate semestreData={sUnModulesData} />
+				<Aside branchData={COURS_DATA} />
+				<MainTemplate semestreData={MIP_S_UN_DATA} />
 			</div>
 		</section>
 	);

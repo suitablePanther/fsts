@@ -1,5 +1,12 @@
-const sQuatreModulesData = [
-	{
+import { MIP_S_QUATRE_MODULE_UN_VIDEOS } from "./modules_videos/module_un_videos";
+import { MIP_S_QUATRE_MODULE_DEUX_VIDEOS } from "./modules_videos/module_deux_videos";
+import { MIP_S_QUATRE_MODULE_TROIS_VIDEOS } from "./modules_videos/module_trois_videos";
+import { MIP_S_QUATRE_MODULE_QUATRE_VIDEOS } from "./modules_videos/module_quatre_videos";
+import { MIP_S_QUATRE_MODULE_SINQ_VIDEOS } from "./modules_videos/module_sinq_videos";
+import { MIP_S_QUATRE_MODULE_SIX_VIDEOS } from "./modules_videos/module_six_videos";
+
+const MIP_S_QUATRE_MODULES_DATA = [
+	{ 
 		id: 1,
 		moduleName: "Module 1",
 		providedLink: "sisttara.com",
@@ -7,36 +14,7 @@ const sQuatreModulesData = [
 			id: 1,
 			owner: "Sisttara",
 			description: "module description",
-			videos: [
-				{
-					id: 1,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 2,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-				{
-					id: 3,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 4,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-			],
+			videos: MIP_S_QUATRE_MODULE_UN_VIDEOS,
 		},
 	},
 	{
@@ -47,36 +25,7 @@ const sQuatreModulesData = [
 			id: 1,
 			owner: "Sisttara",
 			description: "module 2 description",
-			videos: [
-				{
-					id: 1,
-					title: "video 2 Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 2,
-					title: "video 2 Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-				{
-					id: 3,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 4,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-			],
+			videos: MIP_S_QUATRE_MODULE_DEUX_VIDEOS,
 		},
 	},
 	{
@@ -87,36 +36,7 @@ const sQuatreModulesData = [
 			id: 1,
 			owner: "Sisttara",
 			description: "module description",
-			videos: [
-				{
-					id: 1,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 2,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-				{
-					id: 3,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 4,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-			],
+			videos: MIP_S_QUATRE_MODULE_TROIS_VIDEOS,
 		},
 	},
 	{
@@ -127,36 +47,7 @@ const sQuatreModulesData = [
 			id: 1,
 			owner: "Sisttara",
 			description: "module description",
-			videos: [
-				{
-					id: 1,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 2,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-				{
-					id: 3,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 4,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-			],
+			videos: MIP_S_QUATRE_MODULE_QUATRE_VIDEOS,
 		},
 	},
 	{
@@ -167,36 +58,7 @@ const sQuatreModulesData = [
 			id: 1,
 			owner: "Sisttara",
 			description: "module description",
-			videos: [
-				{
-					id: 1,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 2,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-				{
-					id: 3,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 4,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-			],
+			videos: MIP_S_QUATRE_MODULE_SINQ_VIDEOS,
 		},
 	},
 	{
@@ -207,38 +69,9 @@ const sQuatreModulesData = [
 			id: 1,
 			owner: "Sisttara",
 			description: "module description",
-			videos: [
-				{
-					id: 1,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 2,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-				{
-					id: 3,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
-				},
-				{
-					id: 4,
-					title: "video Title",
-					path: "",
-					iframe:
-						"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
-				},
-			],
+			videos: MIP_S_QUATRE_MODULE_SIX_VIDEOS,
 		},
 	},
 ];
 
-export { sQuatreModulesData };
+export { MIP_S_QUATRE_MODULES_DATA };

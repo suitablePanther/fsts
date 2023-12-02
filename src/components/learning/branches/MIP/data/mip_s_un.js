@@ -1,32 +1,10 @@
-export const mipSUnModules = [
-  {
-    id: 1,
-    moduleName: 'Module Name',
-    // path: '/learn/mip/s_'
-  },
-  {
-    id: 2,
-    moduleName: 'Module Name',
-    // path: '/learn/mip/s_'
-  },
-  {
-    id: 3,
-    moduleName: 'Module Name',
-    // path: '/learn/mip/s_'
-  },
-  {
-    id: 4,
-    moduleName: 'Module Name',
-    // path: '/learn/mip/s_'
-  },
-  {
-    id: 5,
-    moduleName: 'Module Name',
-    // path: '/learn/mip/s_'
-  },
-  {
-    id: 6,
-    moduleName: 'Module Name',
-    // path: '/learn/mip/s_'
-  },
-]
+import { MIP_S_UN_MODULES_DATA } from "../semestres/s_un/s_un_modules_data";
+
+export const MIP_S_UN_DATA = {
+	id: 1,
+	name: "S1",
+	path: "/cours/mip/s_un",
+	modules: MIP_S_UN_MODULES_DATA,
+};
+
+export const {modules} = MIP_S_UN_DATA

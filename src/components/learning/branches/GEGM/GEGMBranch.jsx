@@ -1,5 +1,7 @@
+import { Outlet } from "react-router-dom";
+
 const GEGMBranch = () => {
-	return <div>GEGMBranch</div>;
+	return <Outlet/>;
 };
 
 export default GEGMBranch;

@@ -1,32 +1,8 @@
-export const mipSQuatreModules = [
-  {
-    id: 1,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-  {
-    id: 2,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-  {
-    id: 3,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-  {
-    id: 4,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-  {
-    id: 5,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-  {
-    id: 6,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-]
+import { MIP_S_QUATRE_MODULES_DATA } from "../semestres/s_quatre/s_quatre_modules_data";
+
+export const MIP_S_QUATRE_DATA = {
+	id: 4,
+	name: "S4",
+	path: "/cours/mip/s_quatre",
+	modules: MIP_S_QUATRE_MODULES_DATA,
+};

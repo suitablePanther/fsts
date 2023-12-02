@@ -1,8 +1,8 @@
 import MainTemplate from "../../../../components/MainTemplate";
-import { sDeuxModulesData } from "./s_deux_modules_data";
+import { MIP_S_DEUX_MODULES_DATA } from "./s_deux_modules_data";
 
 const MipSDeux = () => {
-	return <MainTemplate semestreData={sDeuxModulesData} />;
+	return <MainTemplate semestreData={MIP_S_DEUX_MODULES_DATA} />;
 };
 
 export default MipSDeux;

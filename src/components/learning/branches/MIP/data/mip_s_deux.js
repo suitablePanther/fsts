@@ -1,32 +1,8 @@
-export const mipSDeuxModules = [
-  {
-    id: 1,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-  {
-    id: 2,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-  {
-    id: 3,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-  {
-    id: 4,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-  {
-    id: 5,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-  {
-    id: 6,
-    moduleName: 'Module Name',
-    path: '/learning/mip/sun/modulename'
-  },
-]
+import { MIP_S_DEUX_MODULES_DATA } from "../semestres/s_deux/s_deux_modules_data";
+
+export const MIP_S_DEUX_DATA = 		{
+  id: 2,
+  name: "S2",
+  path: "/cours/mip/s_deux",
+  modules: MIP_S_DEUX_MODULES_DATA,
+}

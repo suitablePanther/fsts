@@ -1,4 +1,4 @@
-import { administrationData } from "../../data";
+import { administrationData } from "../../home_data";
 const Administration = () => {
 	return (
 		<section id="Administration">

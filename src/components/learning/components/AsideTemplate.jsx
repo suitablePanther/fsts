@@ -1,11 +1,9 @@
 import { NavLink } from "react-router-dom";
-// import { docsSemestres } from "../../branchesData";
 import _ from "lodash";
-import { learningData } from "../data";
 
-const Aside = () => {
+const Aside = ({branchData}) => {
 	const handleShowHide = (id) => {
-		const parent = _.find(learningData, { id });
+		const parent = _.find(branchData, { id });
 		return (parent.isShow = !parent.isShow);
 	};
 	return (
@@ -13,7 +11,7 @@ const Aside = () => {
 			className="fixed bottom-0 flex z-20 justify-evenly w-screen md:sticky md:top-0 md:basis-1/3 md:h-screen md:justify-start md:pt-32 md:gap-2 
 	  md:flex-col md:max-w-[200px] md:z-0 md:dark:bg-stone-800 md:bg-stone-100"
 		>
-			{learningData.map((branch) => {
+			{branchData.map((branch) => {
 				const { id, name, semesters, isShow } = branch;
 				return (
 					<div key={id} className="group flex flex-col-reverse md:flex-col">
