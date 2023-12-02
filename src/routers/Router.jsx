@@ -3,7 +3,7 @@ import Home from "../components/home/Home";
 import NavBar from "../components/NavBar";
 import Docs from "../components/docs/Docs";
 import About from "../components/About";
-import Learning from "../components/learning/Learning";
+import Cours from "../components/cours/Cours";
 // MiP
 import MSOne from "../components/docs/semestres/mip/components/SOne";
 import MSTwo from "../components/docs/semestres/mip/components/STwo";
@@ -22,23 +22,23 @@ import BSTwo from "../components/docs/semestres/bcg/components/STwo";
 import BSThree from "../components/docs/semestres/bcg/components/SThree";
 import BSFour from "../components/docs/semestres/bcg/components/SFour";
 import Error from "../components/Error";
-import MIPBranch from "../components/learning/branches/MIP/MIPBranch";
-import GEGMBranch from "../components/learning/branches/GEGM/GEGMBranch";
-import BCGBranch from "../components/learning/branches/BCG/BCGBranch";
-import MipSUn from "../components/learning/branches/MIP/semestres/s_un/MipSUn";
-import MipSDeux from "../components/learning/branches/MIP/semestres/s_deux/MipSDeux";
-import MipSTrois from "../components/learning/branches/MIP/semestres/s_trois/MipSTrois";
-import MipSQuatre from "../components/learning/branches/MIP/semestres/s_quatre/MipSQuatre";
+import MIPBranch from "../components/cours/branches/MIP/MIPBranch";
+import GEGMBranch from "../components/cours/branches/GEGM/GEGMBranch";
+import BCGBranch from "../components/cours/branches/BCG/BCGBranch";
+import MipSUn from "../components/cours/branches/MIP/semestres/s_un/MipSUn";
+import MipSDeux from "../components/cours/branches/MIP/semestres/s_deux/MipSDeux";
+import MipSTrois from "../components/cours/branches/MIP/semestres/s_trois/MipSTrois";
+import MipSQuatre from "../components/cours/branches/MIP/semestres/s_quatre/MipSQuatre";
 
 /// BCG
-import GegmSUn from "../components/learning/branches/GEGM/semestres/s_un/GeGmSUn";
-import GegmSDeux from "../components/learning/branches/GEGM/semestres/s_deux/GegmSDeux";
-import GegmSTrois from "../components/learning/branches/GEGM/semestres/s_trois/GegmSTrois";
-import GegmSQuatre from "../components/learning/branches/GEGM/semestres/s_quatre/GegmSQuatre";
-import BcgSUn from "../components/learning/branches/BCG/semestres/s_un/BcgSUn";
-import BcgSDeux from "../components/learning/branches/BCG/semestres/s_deux/BcgSDeux";
-import BcgSTrois from "../components/learning/branches/BCG/semestres/s_trois/BcgSTrois";
-import BcgSQuatre from "../components/learning/branches/BCG/semestres/s_quatre/BcgSQuatre";
+import GegmSUn from "../components/cours/branches/GEGM/semestres/s_un/GeGmSUn";
+import GegmSDeux from "../components/cours/branches/GEGM/semestres/s_deux/GegmSDeux";
+import GegmSTrois from "../components/cours/branches/GEGM/semestres/s_trois/GegmSTrois";
+import GegmSQuatre from "../components/cours/branches/GEGM/semestres/s_quatre/GegmSQuatre";
+import BcgSUn from "../components/cours/branches/BCG/semestres/s_un/BcgSUn";
+import BcgSDeux from "../components/cours/branches/BCG/semestres/s_deux/BcgSDeux";
+import BcgSTrois from "../components/cours/branches/BCG/semestres/s_trois/BcgSTrois";
+import BcgSQuatre from "../components/cours/branches/BCG/semestres/s_quatre/BcgSQuatre";
 
 const Router = ({ children }) => {
 	return (
@@ -46,7 +46,7 @@ const Router = ({ children }) => {
 			<NavBar />
 			<Routes>
 				<Route index element={<Home />} />
-				<Route path="/cours" Component={Learning} />
+				<Route path="/cours" Component={Cours} />
 				<Route path="/docs" Component={Docs}>
 					{/* MIP  */}
 					<Route path="/docs/mip/sone" Component={MSOne} />
@@ -69,7 +69,7 @@ const Router = ({ children }) => {
 				</Route>
 				<Route path="*" Component={Error} />
 				<Route path="/about" Component={About} />
-				<Route path="/cours" Component={Learning}>
+				<Route path="/cours" Component={Cours}>
 					<Route path="/cours/mip" Component={MIPBranch}>
 						<Route path="/cours/mip/s_un" Component={MipSUn} />
 						<Route path="/cours/mip/s_deux" Component={MipSDeux} />
