@@ -1,4 +1,4 @@
-import { sUnModulesData } from "./branches/MIP/components/s_un/s_un_modules_data";
+import { sUnModulesData } from "./branches/MIP/semestres/s_un/s_un_modules_data";
 import Aside from "./components/AsideTemplate";
 import MainTemplate from "./components/MainTemplate";
 const Learning = () => {

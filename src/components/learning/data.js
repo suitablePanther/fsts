@@ -7,7 +7,7 @@ const learningData = [
 			{
 				id: 1,
 				name: "S1",
-				path: "/learn/mip/sone",
+				path: "/cours/mip/s_un",
 				modules: [
 					{
 						id: 1,
@@ -102,7 +102,7 @@ const learningData = [
 			{
 				id: 2,
 				name: "S2",
-				path: "/learn/mip/sone",
+				path: "/cours/mip/s_deux",
 				modules: [
 					{
 						id: 1,
@@ -197,7 +197,7 @@ const learningData = [
 			{
 				id: 3,
 				name: "S3",
-				path: "/learn/mip/sone",
+				path: "/cours/mip/s_trois",
 				modules: [
 					{
 						id: 1,
@@ -292,7 +292,7 @@ const learningData = [
 			{
 				id: 4,
 				name: "S4",
-				path: "/learn/mip/sone",
+				path: "/cours/mip/s_quatre",
 				modules: [
 					{
 						id: 1,

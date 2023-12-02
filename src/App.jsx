@@ -1,11 +1,9 @@
-
-import Router from "./Router";
+import Router from "./routers/Router";
 
 const App = () => {
 	return (
 		<>
-
-				<Router />
+			<Router />
 		</>
 	);
 };
