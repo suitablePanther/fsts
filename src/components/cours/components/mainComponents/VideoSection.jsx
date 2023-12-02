@@ -1,10 +1,9 @@
 /* eslint-disable react/prop-types */
 const VideoSection = ({ iframe }) => {
 	return (
-		<div>
+		<div className="w-full aspect-video sm:w-5/6 md:w-2/3 m-auto">
 			<iframe
-				width="560"
-				height="315"
+				className="w-full h-full"
 				src={iframe}
 				title="YouTube video player"
 				frameBorder="0"

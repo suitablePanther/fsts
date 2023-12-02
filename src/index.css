@@ -28,6 +28,9 @@
 	li {
 		@apply list-none;
 	}
+	a {
+		@apply text-white
+	}
 }
 
 @layer utilities {
@@ -36,7 +39,7 @@
 	}
 }
 
-nav .active {
+header nav .active {
 	@apply text-main;
 }
 
