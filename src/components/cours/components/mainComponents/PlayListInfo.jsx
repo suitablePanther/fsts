@@ -8,5 +8,5 @@ const PlayListInfo = ({ module }) => {
 		</div>
 	);
 };
-
+ 
 export default PlayListInfo;

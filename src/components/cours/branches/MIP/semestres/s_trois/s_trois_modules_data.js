@@ -8,7 +8,7 @@ import { MIP_S_TROIS_MODULE_SIX_VIDEOS } from "./modules_videos/module_six_video
 const MIP_S_TROIS_MODULES_DATA = [
 	{
 		id: 1,
-		moduleName: "Module 1",
+		moduleName: "MIP S3 M1",
 		providedLink: "sisttara.com",
 		playList: {
 			id: 1,

@@ -1,7 +1,7 @@
 export const GEGM_S_UN_MODULE_DEUX_VIDEOS = [
 	{
 		id: 1,
-		title: "video 2 Title",
+		title: "video 3 Title",
 
 		iframe:
 			"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",

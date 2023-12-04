@@ -27,4 +27,11 @@ export const MIP_S_UN_MODULE_UN_VIDEOS = [
 		iframe:
 			"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
 	},
+	{
+		id: 5,
+		title: "video Title",
+
+		iframe:
+			"https://www.youtube-nocookie.com/embed/pU0JrZM0QoM?si=loSlxE7l1mpbQrpI",
+	},
 ];
