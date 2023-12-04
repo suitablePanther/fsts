@@ -31,7 +31,7 @@ import MipSTrois from "../components/cours/branches/MIP/semestres/s_trois/MipSTr
 import MipSQuatre from "../components/cours/branches/MIP/semestres/s_quatre/MipSQuatre";
 
 /// BCG
-import GegmSUn from "../components/cours/branches/GEGM/semestres/s_un/GeGmSUn";
+import GegmSUn from "../components/cours/branches/GEGM/semestres/s_un/GegmSUn";
 import GegmSDeux from "../components/cours/branches/GEGM/semestres/s_deux/GegmSDeux";
 import GegmSTrois from "../components/cours/branches/GEGM/semestres/s_trois/GegmSTrois";
 import GegmSQuatre from "../components/cours/branches/GEGM/semestres/s_quatre/GegmSQuatre";
