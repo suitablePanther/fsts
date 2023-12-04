@@ -18,10 +18,16 @@ export const GEGM_S_DEUX_MODULE_UN_VIDEOS = [
 		title: "video Title",
 
 		iframe:
-			"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLTF",
+			"https://www.youtube-nocookie.com/embed/t7_BjLqti8g?si=MWRnfSKD-1nkmLT",
 	},
 	{
 		id: 4,
+		title: "video Title",
+		iframe:
+			"https://www.youtube-nocookie.com/embed/ru3U8MHbFFI?si=5-PJYHVFDGDstUWl",
+	},
+	{
+		id: 5,
 		title: "video Title",
 
 		iframe:
