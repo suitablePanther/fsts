@@ -1,7 +1,13 @@
 import { NavLink } from "react-router-dom";
 import _ from "lodash";
+import { useContext } from "react";
+import { SemestresContext, VideoContext } from "../Cours";
+import { ModuleContext } from "../Cours";
 
-const Aside = ({branchData}) => {
+const Aside = ({ branchData }) => {
+	const setBranchSemestre = useContext(SemestresContext);
+	const { setModule } = useContext(ModuleContext)
+	const {setIframeSrc} = useContext(VideoContext)
 	const handleShowHide = (id) => {
 		const parent = _.find(branchData, { id });
 		return (parent.isShow = !parent.isShow);
@@ -13,6 +19,14 @@ const Aside = ({branchData}) => {
 		>
 			{branchData.map((branch) => {
 				const { id, name, semesters, isShow } = branch;
+				const handleClick = (id) => {
+					const parent = _.find(semesters, { id });
+					console.log(parent);
+					setBranchSemestre(parent);
+					setModule(parent.modules[0]);
+					setIframeSrc(parent.modules[0].playList.videos[0].iframe)
+					return;
+				};
 				return (
 					<div key={id} className="group flex flex-col-reverse md:flex-col">
 						<NavLink
@@ -36,6 +50,7 @@ const Aside = ({branchData}) => {
 									const { id, name, path } = semestre;
 									return (
 										<NavLink
+											onClick={() => handleClick(id)}
 											key={id}
 											to={path}
 											className="w-5/6 aria-[current='page']:text-main font-semibold capitalize m-auto rounded"

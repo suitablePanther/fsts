@@ -1,14 +1,14 @@
-import {MIP_S_UN_MODULE_UN_VIDEOS} from  "./modules_videos/module_un_videos"
-import {MIP_S_UN_MODULE_DEUX_VIDEOS} from  "./modules_videos/module_deux_videos"
-import { MIP_S_UN_MODULE_TROIS_VIDEOS } from "./modules_videos/module_trois_videos"
+import { MIP_S_UN_MODULE_UN_VIDEOS } from "./modules_videos/module_un_videos";
+import { MIP_S_UN_MODULE_DEUX_VIDEOS } from "./modules_videos/module_deux_videos";
+import { MIP_S_UN_MODULE_TROIS_VIDEOS } from "./modules_videos/module_trois_videos";
 
-import {MIP_S_UN_MODULE_QUATRE_VIDEOS} from "./modules_videos/module_quatre_videos"
+import { MIP_S_UN_MODULE_QUATRE_VIDEOS } from "./modules_videos/module_quatre_videos";
 import { MIP_S_UN_MODULE_SINQ_VIDEOS } from "./modules_videos/module_sinq_videos";
 import { MIP_S_UN_MODULE_SIX_VIDEOS } from "./modules_videos/module_six_videos";
 const MIP_S_UN_MODULES_DATA = [
 	{
 		id: 1,
-		moduleName: "Module 1",
+		moduleName: "M1M1",
 		providedLink: "sisttara.com",
 		playList: {
 			id: 1,
@@ -19,7 +19,7 @@ const MIP_S_UN_MODULES_DATA = [
 	},
 	{
 		id: 2,
-		moduleName: "Module 2",
+		moduleName: "M1M2",
 		providedLink: "sisttara.com",
 		playList: {
 			id: 1,
@@ -30,7 +30,7 @@ const MIP_S_UN_MODULES_DATA = [
 	},
 	{
 		id: 3,
-		moduleName: "Module 3",
+		moduleName: "M1M3",
 		providedLink: "sisttara.com",
 		playList: {
 			id: 1,
@@ -41,7 +41,7 @@ const MIP_S_UN_MODULES_DATA = [
 	},
 	{
 		id: 4,
-		moduleName: "Module 4",
+		moduleName: "M1M4",
 		providedLink: "sisttara.com",
 		playList: {
 			id: 1,

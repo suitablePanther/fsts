@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import _ from "lodash";
 import { useContext } from "react";
-import { VideoContext } from "../MainTemplate";
+import { VideoContext } from "../../Cours";
 
 const PlayListSection = ({ module }) => {
 	const { setIframeSrc } = useContext(VideoContext);
