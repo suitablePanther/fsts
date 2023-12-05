@@ -1,13 +1,15 @@
 import _ from "lodash";
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
-import { ModuleContext } from "../../Cours";
+import { ModuleContext, VideoContext } from "../../Cours";
 
 const ModulesNav = ({ semestre }) => {
+	const { setIframeSrc } = useContext(VideoContext);
 	const { setModule } = useContext(ModuleContext);
 	const handleClick = (id) => {
 		const module = _.find(semestre, { id });
 		setModule(module);
+		setIframeSrc(module.playList.videos[0].iframe)
 		return;
 	};
 	return (
