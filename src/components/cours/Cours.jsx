@@ -17,11 +17,10 @@ const Cours = () => {
 	const { modules } = branchSemestre;
 	return (
 		<section className="p-0">
-			<div className="contain flex">
+			<div className="contain flex relative ">
 				<ModuleContext.Provider value={{ module, setModule }}>
 					<VideoContext.Provider value={{ iframeSrc, setIframeSrc }}>
 						<SemestresContext.Provider value={setBranchSemestre}>
-							<Aside branchData={COURS_DATA} />
 							<ModulesNav semestre={modules} />
 							<MainTemplate semestreData={branchSemestre} />
 						</SemestresContext.Provider>

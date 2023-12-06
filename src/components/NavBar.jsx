@@ -34,7 +34,7 @@ const NavBar = () => {
 	///
 	return (
 		<header
-			className="flex justify-between w-full sm:shadow-xl sm:bg-main/20 sm:shadow-main/10  fixed right-1/2 translate-x-1/2 z-10
+			className="flex z-50 justify-between w-full sm:shadow-xl sm:bg-main/20 sm:shadow-main/10  fixed right-1/2 translate-x-1/2 
 		 md:text-xl m-auto font-semibold "
 		>
 			<div className="container flex justify-between">

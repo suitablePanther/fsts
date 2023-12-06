@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { ModuleContext, VideoContext } from "../../Cours";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faAngleDoubleLeft,
+	faAngleDoubleLeft,	
 	faAngleDoubleRight,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -32,7 +32,7 @@ const ModulesNav = ({ semestre }) => {
 	};
 	return (
 		<nav
-			className=" flex flex-col sm:sticky absolute top-0 h-screen bg-bgDark left-0 
+			className=" flex flex-col z-40 sm:sticky absolute top-0 h-screen bg-bgDark left-0 
 		  gap-4 text-sm font-semibold py-24 border-r-2 border-stone-700/50"
 		>
 			<span

@@ -14,8 +14,7 @@ const Aside = ({ branchData }) => {
 	};
 	return (
 		<aside
-			className="fixed bottom-0 flex z-20 justify-evenly w-screen md:sticky md:top-0 md:basis-1/3 md:h-screen md:justify-start md:pt-32 md:gap-2 
-	  md:flex-col md:max-w-[200px] md:z-0 md: bg-transparent md:bg-stone-800"
+			className="flex absolute top-12 z-50 right-0 h-fit justify-evenly bg-transparent "
 		>
 			{branchData.map((branch) => {
 				const { id, name, semesters, isShow } = branch;
@@ -28,10 +27,10 @@ const Aside = ({ branchData }) => {
 					return;
 				};
 				return (
-					<div key={id} className="group flex flex-col-reverse md:flex-col">
+					<div key={id} className="group flex flex-col ">
 						<NavLink
-							className="text-center py-1 bg-stone-800 w-[33vw] md:w-full group-gr relative 
-						 md:py-[1px] block font-semibold"
+							className="py-1 text-center bg-stone-800 w-[33vw]  group-gr relative 
+						  block font-semibold"
 							onClick={() => handleShowHide(id)}
 						>
 							<span className=" absolute right-2 top-1/2 -translate-y-1/2 content-[url('/svgs/up.svg')]  w-5 rotate-180"></span>
