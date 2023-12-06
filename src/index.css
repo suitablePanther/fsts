@@ -22,7 +22,7 @@
 		@apply py-9;
 	}
 	p {
-		@apply text-gray-500 dark:text-gray-400;
+		@apply text-gray-400;
 	}
 	ul,
 	li {
@@ -47,14 +47,17 @@ header nav .active {
 	@apply w-1;
 }
 ::-webkit-scrollbar-track {
-	@apply dark:bg-black;
+	@apply bg-black;
 }
 ::-webkit-scrollbar-track-piece {
-	@apply dark:bg-black;
+	@apply bg-black;
 }
 ::-webkit-scrollbar-thumb {
 	@apply bg-main rounded-md;
 }
+
+
+
 /* FIREFOX */
 html {
 	scrollbar-width: thin;

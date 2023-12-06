@@ -3,7 +3,7 @@ const PlayListInfo = ({ module }) => {
 	const { description } = playList;
 	return (
 		<div className="flex flex-col gap-3 ">
-			<h2 className=""> {moduleName} </h2>
+			<h2 > {moduleName} </h2>
 			<p className="text-justify">{description} </p>
 		</div>
 	);

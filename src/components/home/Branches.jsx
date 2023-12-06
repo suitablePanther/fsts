@@ -41,10 +41,7 @@ const Branches = () => {
 								<span className="pl-1 text-gray-400 capitalize">
 									prospects:
 									{prospects.map((pro) => (
-										<li
-											className="pl-10 text-black dark:text-slate-50"
-											key={pro}
-										>
+										<li className="pl-10 text-black  text-slate-50" key={pro}>
 											{pro},
 										</li>
 									))}

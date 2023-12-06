@@ -6,7 +6,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Footer = () => {
 	return (
-		<footer id="footer" className="dark:bg-slate-200 bg-bgDark">
+		<footer id="footer" className="  bg-mainBg">
 			<div className="container m-auto flex h-[40vh] items-center justify-center ">
 				<div className="basis-full pl-2 sm:pl-10">
 					{[
@@ -17,7 +17,7 @@ const Footer = () => {
 					].map(([title, path], index) => {
 						return (
 							<NavLink
-								className="font-semibold flex flex-col w-fit text-white dark:text-black hover:pl-1 ease-linear duration-150 py-1"
+								className="font-semibold flex flex-col w-fit   text-black hover:pl-1 ease-linear duration-150 py-1"
 								key={index}
 								to={path}
 							>
@@ -26,7 +26,7 @@ const Footer = () => {
 						);
 					})}
 					<div className="socials">
-						<h4 className="py-3 text-white dark:text-bgDark">dev Contact: </h4>
+						<h4 className="py-3  text-bgDark">dev Contact: </h4>
 						<a
 							href="mailto:suitablepanther@gmail.com"
 							className="text-yellow-500 text-xl p-2"
@@ -47,7 +47,7 @@ const Footer = () => {
 						</NavLink>
 						<NavLink
 							to="https://sisttara.com"
-							className="text-white dark:text-bgDark text-xl"
+							className=" text-bgDark text-xl"
 						>
 							<FontAwesomeIcon icon={faS} />
 							<FontAwesomeIcon icon={faP} />
@@ -55,9 +55,9 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="relative basis-full h-full flex justify-center items-center">
-					<span className="absolute dark:bg-black bg-slate-100 w-1 h-1/2 left-0 top-1/2 -translate-y-1/2 "></span>
+					<span className="absolute bg-bgDark w-1 h-1/2 left-0 top-1/2 -translate-y-1/2 "></span>
 					<div className=" grow max-w-[350px] flex flex-col gap-1">
-					<h4 className="p-3 text-white dark:text-black">subscribe;</h4>
+						<h4 className="p-3  text-black">subscribe;</h4>
 						<input
 							type="email"
 							name="email"
@@ -66,7 +66,7 @@ const Footer = () => {
 						/>
 						<button
 							type="submit"
-							className=" focus:border-[2px] w-fit self-end font-semibold bg-white dark:bg-bgDark p-1 rounded-sm capitalize"
+							className=" focus:border-[2px] w-fit self-end font-semibold bg-bgDark p-1 rounded-sm capitalize"
 						>
 							subscribe
 						</button>

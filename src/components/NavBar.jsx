@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import DarkMode from "../helpers/DarkMode";
 import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +14,7 @@ const NavBar = () => {
 		e.currentTarget.classList.add("hidden");
 		const navBar = navRef.current;
 		navBar.classList.remove("hidden");
-		navBar.classList += " flex sm:flex-row flex-col dark:text-black w-[40vw]";
+		navBar.classList += " flex sm:flex-row flex-col  text-black w-[40vw]";
 		xRef.current.classList.remove("hidden");
 		return;
 	};
@@ -46,9 +45,7 @@ const NavBar = () => {
 							Talib
 						</span>
 					</span>
-					<div className="self-end absolute left-full flex flex-col">
-						{/* <span className="lowercase leading-3">settat</span> */}
-					</div>
+					<div className="self-end absolute left-full flex flex-col"></div>
 				</div>
 				<span
 					ref={pointsRef}
@@ -84,7 +81,6 @@ const NavBar = () => {
 							</NavLink>
 						);
 					})}
-					<DarkMode />
 				</nav>
 			</div>
 		</header>

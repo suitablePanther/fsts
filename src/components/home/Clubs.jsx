@@ -16,7 +16,7 @@ const Clubs = () => {
 						<li
 							key={id}
 							className="relative flex flex-col justify-between h-[300px] sm:h-[450px] rounded-xl
-                text-white max-w-[350px] border-[5px] dark:border-gray-200 border-gray-300"
+                text-white max-w-[350px] border-[5px]  border-gray-200 border-gray-300"
 						>
 							<img
 								src={logo}

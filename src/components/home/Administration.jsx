@@ -17,7 +17,7 @@ const Administration = () => {
 					return (
 						<div
 							key={id}
-							className="box border dark:border-zinc-700 relative pt-6 
+							className="box border  border-zinc-700 relative pt-6 
            rounded-md ease-linear duration-200
            shadow hover:shadow-zinc-500"
 						>
