@@ -73,7 +73,7 @@ const NavBar = () => {
 					].map(([title, path], index) => {
 						return (
 							<NavLink
-								className=" hover:pl-5 text-white sm:hover:pl-4 w-full pl-4 relative p-2 duration-200"
+								className="capitalize hover:pl-5 text-white sm:hover:pl-4 w-full pl-4 relative p-2 duration-200"
 								key={index}
 								to={path}
 							>
