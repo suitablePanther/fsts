@@ -68,7 +68,7 @@ const NavBar = () => {
 					{[
 						["Home", "/"],
 						["Docs", "/docs"],
-						["cours", "/cours"],
+						["cours", "/coursmap"],
 						["About", "/about"],
 					].map(([title, path], index) => {
 						return (

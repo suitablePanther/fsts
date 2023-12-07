@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import { MIP_S_UN_DATA } from "./branches/MIP/data/mip_s_un";
-import Aside from "./components/AsideTemplate";
+import Aside from "./components/SemestresNav";
 import MainTemplate from "./components/MainTemplate";
 
 import { COURS_DATA } from "./data";

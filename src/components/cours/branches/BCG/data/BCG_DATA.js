@@ -5,6 +5,7 @@ import { BCG_S_UN_DATA } from "./bcg_s_un";
 
 export const BCG_DATA = {
 	id: 3,
+	path: '/cours/bcg',
 	name: "BCG",
 	isShow: true,
 	semesters: [

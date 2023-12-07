@@ -5,6 +5,7 @@ import { GEGM_S_UN_DATA } from "./gegm_s_un";
 
 export const GEGM_DATA = {
 	id: 2,
+	path: '/cours/gegm',
 	name: "GEGM",
 	isShow: true,
 	semesters: [

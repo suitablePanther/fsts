@@ -3,7 +3,7 @@ import PlayListSection from "./mainComponents/PlayListSection";
 import VideoSection from "./mainComponents/VideoSection";
 import PlayListInfo from "./mainComponents/PlayListInfo";
 import { ModuleContext, VideoContext } from "../Cours";
-import Aside from "./AsideTemplate";
+import Aside from "./SemestresNav";
 import { COURS_DATA } from "../data";
 
 // eslint-disable-next-line react/prop-types
@@ -12,7 +12,7 @@ const MainTemplate = ({ semestreData }) => {
 	const { module } = useContext(ModuleContext);
 	return (
 		<main className="pt-20 relative w-full px-3 m-auto container">
-			<Aside branchData={COURS_DATA} />
+			{/* <Aside branchData={COURS_DATA} /> */}
 			<PlayListInfo module={module} />
 			<div className="flex gap-16 py-6 flex-col">
 				<VideoSection iframe={iframeSrc} />

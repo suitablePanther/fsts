@@ -5,6 +5,7 @@ import { MIP_S_UN_DATA } from "./mip_s_un";
 
 export const MIP_DATA = {
 	id: 1,
+	path: '/cours/mip',
 	name: "MIP",
 	isShow: true,
 	semesters: [

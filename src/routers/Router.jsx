@@ -39,6 +39,7 @@ import BcgSUn from "../components/cours/branches/BCG/semestres/s_un/BcgSUn";
 import BcgSDeux from "../components/cours/branches/BCG/semestres/s_deux/BcgSDeux";
 import BcgSTrois from "../components/cours/branches/BCG/semestres/s_trois/BcgSTrois";
 import BcgSQuatre from "../components/cours/branches/BCG/semestres/s_quatre/BcgSQuatre";
+import CoursMap from "../components/cours/CoursMap";
 
 const Router = () => {
 	return (
@@ -88,6 +89,7 @@ const Router = () => {
 						<Route path="/cours/bcg/s_quatre" Component={BcgSQuatre} />
 					</Route>
 				</Route>
+				<Route path="/coursmap" Component={CoursMap} />
 			</Routes>
 		</BrowserRouter>
 	);
