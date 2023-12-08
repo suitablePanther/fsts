@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+// import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const NavBar = () => {
 	const [isSmallScreen, setIsSmallScreen] = useState(null);
 	const [isNavBarShownInSmallScreen, setIsNavBarShownInSmallScreen] =
