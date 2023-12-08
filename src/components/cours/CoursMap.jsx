@@ -5,7 +5,7 @@ const CoursMap = () => {
 	return (
 		<section className=" h-screen flex flex-col justify-center self-center">
 			<h1>Cours Map</h1>
-			<main className=" group/p container flex items-center max-w-[450px]">
+			<main className=" group/p container flex items-center max-w-[450px] rotate-90 sm:rotate-0">
 				<h3
 					className=" group-hover/p:text-transparent bg-clip-text
                group-hover/p:bg-gradient-to-l group-hover/p:from-yellow-600 group-hover/p:to-bgDark p-2 rounded-lg border-2 duration-100"
