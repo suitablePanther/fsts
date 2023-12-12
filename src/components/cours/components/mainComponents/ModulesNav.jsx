@@ -1,17 +1,19 @@
 import _ from "lodash";
 import { useContext, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { ModuleContext, VideoContext } from "../../Cours";
+// import {  VideoContext } from "../../Cours";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faAngleDoubleLeft,	
+	faAngleDoubleLeft,
 	faAngleDoubleRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { ModuleContextAPI } from "../../contexts/ModuleContext";
+import { VideoContextAPI } from "../../contexts/VideoContext";
 
 const ModulesNav = ({ semestre }) => {
 	const [isShow, setIsShow] = useState(true);
-	const { setIframeSrc } = useContext(VideoContext);
-	const { setModule } = useContext(ModuleContext);
+	const { setIframeSrc } = useContext(VideoContextAPI);
+	const { setModule } = useContext(ModuleContextAPI);
 	// checking if the screen is greater than px
 	useEffect(() => {
 		const isShowTime = setInterval(() => {

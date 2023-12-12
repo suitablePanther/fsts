@@ -1,7 +1,17 @@
 import { Link } from "react-router-dom";
 import { COURS_DATA } from "./data";
+import { useContext } from "react";
+import { SemestresContextAPI } from "./contexts/SemestresContext";
+import _ from "lodash";
+import { ModuleContextAPI } from "./contexts/ModuleContext";
+import { VideoContextAPI } from "./contexts/VideoContext";
 
 const CoursMap = () => {
+	// taking data form Contexts
+	const { setBranchSemestre } = useContext(SemestresContextAPI);
+	const { setModule } = useContext(ModuleContextAPI);
+	const { setIframeSrc } = useContext(VideoContextAPI);
+	//
 	return (
 		<section className=" h-screen flex flex-col justify-center self-center">
 			<h1>Cours Map</h1>
@@ -21,6 +31,13 @@ const CoursMap = () => {
 				>
 					{COURS_DATA.map((branch) => {
 						const { id, name, semesters, path } = branch;
+						const handleClick = (id) => {
+							const parent = _.find(semesters, { id });
+							setBranchSemestre(parent);
+							setModule(parent.modules[0]);
+							setIframeSrc(parent.modules[0].playList.videos[0].iframe);
+							return;
+						};
 						return (
 							<div
 								key={id}
@@ -51,6 +68,7 @@ const CoursMap = () => {
 												className="relative block rounded-full px-2 text-center font-semibold 
                       before:h-[1.6px] before:absolute before:w-[10px] before:bg-zinc-100 before:top-1/2
                      before:-translate-y-1/2 before:right-full hover:text-yellow-600 duration-100"
+												onClick={() => handleClick(id)}
 											>
 												{name}
 											</Link>

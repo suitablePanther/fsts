@@ -2,17 +2,14 @@ import { useContext } from "react";
 import PlayListSection from "./mainComponents/PlayListSection";
 import VideoSection from "./mainComponents/VideoSection";
 import PlayListInfo from "./mainComponents/PlayListInfo";
-import { ModuleContext, VideoContext } from "../Cours";
-import Aside from "./SemestresNav";
-import { COURS_DATA } from "../data";
+import { ModuleContextAPI } from "../contexts/ModuleContext";
+import { VideoContextAPI } from "../contexts/VideoContext";
 
-// eslint-disable-next-line react/prop-types
-const MainTemplate = ({ semestreData }) => {
-	const { iframeSrc } = useContext(VideoContext);
-	const { module } = useContext(ModuleContext);
+const MainTemplate = () => {
+	const { iframeSrc } = useContext(VideoContextAPI);
+	const { module } = useContext(ModuleContextAPI);
 	return (
 		<main className="pt-20 relative w-full px-3 m-auto container">
-			{/* <Aside branchData={COURS_DATA} /> */}
 			<PlayListInfo module={module} />
 			<div className="flex gap-16 py-6 flex-col">
 				<VideoSection iframe={iframeSrc} />
