@@ -30,7 +30,7 @@ const CoursMap = () => {
        before:top-1/2 before:-translate-y-1/2 before:-left-9 "
 				>
 					{COURS_DATA.map((branch) => {
-						const { id, name, semesters, path } = branch;
+						const { id, name, semesters } = branch;
 						const handleClick = (id) => {
 							const parent = _.find(semesters, { id });
 							setBranchSemestre(parent);
@@ -44,15 +44,14 @@ const CoursMap = () => {
 								className="group flex items-center justify-between w-[200px]
               "
 							>
-								<Link
-									to={path}
-									className="relative text-xl font-bold border-2 p-2 rounded-lg duration-100 group-hover:text-transparent bg-clip-text
+								<span
+									className=" relative text-xl font-bold border-2 p-2 rounded-lg duration-100 group-hover:text-transparent bg-clip-text
                group-hover:bg-gradient-to-l group-hover:from-yellow-600 group-hover:to-bgDark
                before:h-[2px] before:absolute before:w-[18px] before:bg-zinc-100 before:top-1/2
                before:-translate-y-1/2 before:right-[115%]"
 								>
 									{name}
-								</Link>
+								</span>
 								<span className="block h-[1.6px] grow bg-zinc-100 -translate-y-1/2"></span>
 								<div
 									className="relative pl-4 flex flex-col gap-2 before:h-[81.5%] before:absolute
