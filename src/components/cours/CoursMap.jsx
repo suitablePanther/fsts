@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { COURS_DATA } from "./data";
 import { useContext } from "react";
-import { SemestresContextAPI } from "./contexts/SemestresContext";
+import { SemestresContextAPI } from "./context/SemestresContext";
 import _ from "lodash";
-import { ModuleContextAPI } from "./contexts/ModuleContext";
-import { VideoContextAPI } from "./contexts/VideoContext";
+import { ModuleContextAPI } from "./context/ModuleContext";
+import { VideoContextAPI } from "./context/VideoContext";
 
 const CoursMap = () => {
 	// taking data form Contexts

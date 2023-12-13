@@ -1,6 +1,6 @@
-import ModuleContext from "./components/cours/Contexts/ModuleContext";
-import SemestresContext from "./components/cours/Contexts/SemestresContext";
-import VideoContext from "./components/cours/Contexts/VideoContext";
+import ModuleContext from "./components/cours/context/ModuleContext";
+import SemestresContext from "./components/cours/context/SemestresContext";
+import VideoContext from "./components/cours/context/VideoContext";
 import Router from "./routers/Router";
 
 const App = () => {

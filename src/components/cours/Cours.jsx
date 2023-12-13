@@ -2,7 +2,7 @@ import { useContext } from "react";
 import MainTemplate from "./components/MainTemplate";
 import ModulesNav from "./components/mainComponents/ModulesNav";
 
-import { SemestresContextAPI } from "./contexts/SemestresContext";
+import { SemestresContextAPI } from "./context/SemestresContext";
 
 const Cours = () => {
 	const { branchSemestre } = useContext(SemestresContextAPI);

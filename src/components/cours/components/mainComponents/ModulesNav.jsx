@@ -7,8 +7,8 @@ import {
 	faAngleDoubleLeft,
 	faAngleDoubleRight,
 } from "@fortawesome/free-solid-svg-icons";
-import { ModuleContextAPI } from "../../contexts/ModuleContext";
-import { VideoContextAPI } from "../../contexts/VideoContext";
+import { ModuleContextAPI } from "../../context/ModuleContext";
+import { VideoContextAPI } from "../../context/VideoContext";
 
 const ModulesNav = ({ semestre }) => {
 	const [isShow, setIsShow] = useState(true);

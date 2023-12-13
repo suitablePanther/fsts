@@ -2,8 +2,8 @@ import { useContext } from "react";
 import PlayListSection from "./mainComponents/PlayListSection";
 import VideoSection from "./mainComponents/VideoSection";
 import PlayListInfo from "./mainComponents/PlayListInfo";
-import { ModuleContextAPI } from "../contexts/ModuleContext";
-import { VideoContextAPI } from "../contexts/VideoContext";
+import { ModuleContextAPI } from "../context/ModuleContext";
+import { VideoContextAPI } from "../context/VideoContext";
 
 const MainTemplate = () => {
 	const { iframeSrc } = useContext(VideoContextAPI);
